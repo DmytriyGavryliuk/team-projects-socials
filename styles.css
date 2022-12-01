@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+
+.socials__item {
+    fill: rgba(243, 198, 83, 0.7);
+}
+
+/* horizontal  */
+
+.horizontal {
+display: flex;
+gap: 22px;
+}
+
+
+
+/* vertical */
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* < !-- socials vertical buttons tablet-desktop --> */
+
+.socials__footer--desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 15px;
+   
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 4px;
+    text-decoration: none;
+
+    width: 100%;
+    max-width: 144px;
+    height: 40px;
+}
+
+.socials__text {
+    color: rgba(243, 198, 83, 0.7);
+}
